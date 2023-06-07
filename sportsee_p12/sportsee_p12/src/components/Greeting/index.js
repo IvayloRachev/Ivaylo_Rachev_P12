@@ -5,7 +5,7 @@ function Greeting({ firstname, motivationalSpeech }) {
         <div>
             <h2 className='greeting'>
                 Bonjour
-                <span className='firstname'>{firstname}</span>
+                <span className='firstname'> {firstname}</span>
             </h2>
             <p className='motivationalSpeech'>{motivationalSpeech}</p>
         </div>
