@@ -6,7 +6,7 @@ NPM
 Git                                                                                                                                   
 Code editor (Vscode)                                                                                                                   
 
-Install and start BackEnd                                                                                                                                                                                                                            
+Install and start Back-End                                                                                                                                                                                                                            
 To use the application you need to clone the API from OpenClassrooms-Student-Center. Open a terminal and follow the instructions.
 
 git clone https://github.com/OpenClassrooms-Student-Center/P9-front-end-dashboard.git
@@ -22,7 +22,7 @@ Magic happens on port 3000
 
 To learn more about how the API works, go to : https://github.com/OpenClassrooms-Student-Center/P9-front-end-dashboard
 
-Install and start FrontEnd                                                                                                            
+Install and start Front-End                                                                                                            
 In another terminal, you need to clone the FrontEnd repository.
 
 git clone https://github.com/IvayloRachev/Ivaylo_Rachev_P12                                                                          
