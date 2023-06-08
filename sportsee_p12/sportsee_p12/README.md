@@ -5,14 +5,14 @@ NodeJs
 NPM                                                                                                                                     
 Git                                                                                                                                   
 Code editor (Vscode)                                                                                                                   
-Installation
-Install and start BackEnd
+
+Install and start BackEnd                                                                                                                                                                                                                            
 To use the application you need to clone the API from OpenClassrooms-Student-Center. Open a terminal and follow the instructions.
 
 git clone https://github.com/OpenClassrooms-Student-Center/P9-front-end-dashboard.git
 cd P9-front-end-dashboard                                                                                                           
 npm install                                                                                                                             
-npm run start                                                                                                                          
+npm start                                                                                                                          
 You will see                                                                                                                           
 
 > P9-front-end-dashboard@1.0.0 start                                                                                                   
