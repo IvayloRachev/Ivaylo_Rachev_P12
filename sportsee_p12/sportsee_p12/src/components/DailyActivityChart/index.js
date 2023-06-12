@@ -21,7 +21,7 @@ import './index.css';
 const CustomTooltip = ({ active, payload }) => {
     if (active && payload && payload.length) {
         return (
-            <div className='daylyActivityChart__customTooltip'>
+            <div className='customTooltip'>
                 <p>{`${payload[0].value}kg`}</p>
                 <p>{`${payload[1].value}Kcal`}</p>
             </div>
@@ -57,7 +57,7 @@ function DailyActivityChart({ data }) {
                     top: 25,
                     right: 20,
                     bottom: 25,
-                }} 
+                }}  
             >
             <CartesianGrid strokeDasharray="3 3" vertical="" />
             <XAxis
@@ -75,7 +75,7 @@ function DailyActivityChart({ data }) {
                 content={<CustomTooltip />}
                 wrapperStyle={{ outline: 'none' }}
             />
-            <Bar 
+            <Bar
                 name="Poids (kg)"
                 dataKey="weight"
                 fill="#282D30"

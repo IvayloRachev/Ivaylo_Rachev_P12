@@ -45,16 +45,16 @@ li{
     font-size: 15px;
 }
 
-.dailyActivityChart__customTooltip {
-    background-color: var(--primary-color);
-    color: var(--text-color-light-1);
-    margin-left: 10px;
-    width: 39px;
-    height: 64px;
+.customTooltip {
+    font-size: 10px;
+    background-color: var(--primary-color-dark);
+    color: white;
+    height: 82px;
+    width: 60px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: var(--font-size-8);
-    font-weight: 500;
-}
+    padding-left: 5%;
+    padding-top: 10%;
+    margin-left: 40px;
+    text-align: center;
+  }
