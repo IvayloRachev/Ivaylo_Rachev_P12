@@ -42,22 +42,22 @@ const USER_ACTIVITY = [
         },
         {
           day: '2020-07-02',
-          kilogram: 80,
+          kilogram: 120,
           calories: 220,
         },
         {
           day: '2020-07-03',
-          kilogram: 81,
+          kilogram: 60,
           calories: 280,
         },
         {
           day: '2020-07-04',
-          kilogram: 81,
+          kilogram: 150,
           calories: 290,
         },
         {
           day: '2020-07-05',
-          kilogram: 80,
+          kilogram: 50,
           calories: 160,
         },
         {
@@ -67,7 +67,7 @@ const USER_ACTIVITY = [
         },
         {
           day: '2020-07-07',
-          kilogram: 76,
+          kilogram: 200,
           calories: 390,
         },
       ],
@@ -77,22 +77,22 @@ const USER_ACTIVITY = [
       sessions: [
         {
           day: '2020-07-01',
-          kilogram: 70,
+          kilogram: 90,
           calories: 240,
         },
         {
           day: '2020-07-02',
-          kilogram: 69,
+          kilogram: 50,
           calories: 220,
         },
         {
           day: '2020-07-03',
-          kilogram: 70,
+          kilogram: 80,
           calories: 280,
         },
         {
           day: '2020-07-04',
-          kilogram: 70,
+          kilogram: 180,
           calories: 500,
         },
         {
@@ -102,12 +102,12 @@ const USER_ACTIVITY = [
         },
         {
           day: '2020-07-06',
-          kilogram: 69,
+          kilogram: 130,
           calories: 162,
         },
         {
           day: '2020-07-07',
-          kilogram: 69,
+          kilogram: 50,
           calories: 390,
         },
       ],
@@ -266,4 +266,3 @@ const USER_PERFORMANCE = [
     USER_AVERAGE_SESSIONS,
     USER_PERFORMANCE,
   }
-  
