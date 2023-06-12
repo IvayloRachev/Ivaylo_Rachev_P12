@@ -5,28 +5,29 @@ NodeJs
 NPM                                                                                                                                     
 Git                                                                                                                                   
 Code editor (Vscode)                                                                                                                   
-Installation
-Install and start BackEnd
+
+Install and start Back-End                                                                                                                                                                                                                            
 To use the application you need to clone the API from OpenClassrooms-Student-Center. Open a terminal and follow the instructions.
 
 git clone https://github.com/OpenClassrooms-Student-Center/P9-front-end-dashboard.git
 cd P9-front-end-dashboard                                                                                                           
 npm install                                                                                                                             
-npm run start                                                                                                                          
-You will see                                                                                                                           
+npm start                                                                                                                          
+You will see                                                                                         
 
 > P9-front-end-dashboard@1.0.0 start                                                                                                   
 > node app/index.js                                                                                                                    
 
 Magic happens on port 3000
 
-To learn more about how the API works, go to : https://github.com/OpenClassrooms-Student-Center/P9-front-end-dashboard
+For more informations, go to : https://github.com/OpenClassrooms-Student-Center/P9-front-end-dashboard
 
-Install and start FrontEnd                                                                                                            
-In another terminal, you need to clone the FrontEnd repository.
+
+Install and start Front-End                                                                                                            
+In another terminal, you need to clone the Front-End repository.
 
 git clone https://github.com/IvayloRachev/Ivaylo_Rachev_P12                                                                          
-cd sportsee_p12                                                                                                                      
+cd sportsee_p12/sportsee_p12                                                                                                                     
 npm install                                                                                                                           
 npm start                                                                                                                            
 
@@ -38,8 +39,8 @@ Would you like to run the app on another port instead? » (Y/n)
 Click Y for yes.                                                                                                                       
 
 Switch data
-To switch the data from Mock or from API you can in /src/utils/context/index.jsx select source.api or source.mock.
-<SourceContext.Provider value={{ source: source.api }}>                                                                               
+To choice the data from Mock or from API you can select source.api or source.mock in /src/utils/context/index.jsx.
+<SourceContext.Provider value={{ source: source.mock }}> or <SourceContext.Provider value={{ source: source.api }}>                                                                                                       
 
 Switch User                                                                                                                         
 If you want change the user, in the url of your browser you can choose the user id.                                                   
